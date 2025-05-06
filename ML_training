@@ -1,1 +1,29 @@
+1.Dataset Discription
+The used dataset to conduct the present study is the CIC-
+IDS2017 dataset designed by the Canadian Institute for
+Cybersecurity (CIC). It is particularly crafted for IDS research.
+The dataset consists of complex network traffic data capturing
+widespread flow-type metrics based upon packet-level
+information. The characteristics are essential to distinguish
+normal and abusive traffic in network activity.
+Dataset Overview
+• Source: Canadian Institute for Cybersecurity (CIC),
+University of New Brunswick
+• Purpose: To assist in the process of evaluating and
+developing IDS models to identify and classify various
+cyberattacks.
+• Includes marked examples of normal traffic in a network and
+different types of attack scenarios (e.g., DoS, DDoS, Brute
+Force, Infiltration, Botnet, Web attacks).
 
+
+
+2. Proposed Model
+In this paper, we employ a hybrid model consisting of an
+Autoencoder for feature extraction and an XGBoost
+classification based on it to solve the difficulties in the
+CICIDS2017 dataset." The reason for using hybrid model is to
+take advantage of the power of both machine learning and deep
+learning. With the help of Autoencoders in learning feature
+representations efficiently by reducing data complexity,
+XGBoost is used to classify different attacks efficiently.
